@@ -13,8 +13,7 @@
 
                 .user-table { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }
                 .seriesfilmes-table { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }
-                .eventstable { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }
-                .relacao01 { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }     
+                .eventstable { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }     
                 .etapa01 { margin-top: 140px;}
                 .etapa02 { margin-top: 140px;}
                 .line { border: 1px solid #323238; margin: 80px auto; width: 80%; }
@@ -86,58 +85,137 @@
             <hr class = "line"/>  
                     <div class = "etapa02"> 
                         <h3> 2. importação no Neo4j Aura </h3>
-                            <p style="margin-bottom: 50px"> Inclusão dos dados separados em arquivos CSV e criação do relacionamento</p>
+                            <p style="margin-bottom: 50px"> Inclusão dos dados separados em arquivos CSV ao data source e criação do primeiro relacionamento </p>
                                     <i>Visualização:</i>
-                                    <div id="relacionamento1" style="width: 620px; height: 300px; margin: 0 auto; border-radius: 8px; background-color: #f0eeee;"></div>
-                                    <script type="text/javascript">
-                                    // 1. Definir nós
-                                        var nos = new vis.DataSet([
-                                        { id: 1, label: "Usuário",color: '#97c2fc', shape: 'dot',},
-                                        { id: 2, label: "Conteúdo", color: '#fb7e81', shape: 'dot' },
-                                        { id: 3, label: "Evento", color: '#7be141', shape: 'dot' }
-                                        ]);
+                                    <div id="visualizacao" style="margin-bottom: 20px;">
+                                        <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin: 30px 0;">
+                                            <figure style="margin: 0; width: 480px; max-width: 100%;">
+                                                <img src="{{ url_for('static', filename='img/run_results_conteudo1.png') }}" alt="Resultado da importação no Neo4j - Conteúdos" style="width: 100%; height: auto; border: 1px solid #323238; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+                                                <figcaption><i>resultado da tabela .CSV: "conteudos"</i></figcaption>
+                                            </figure>
+                                            <figure style="margin: 0; width: 480px; max-width: 100%;">
+                                                <img src="{{ url_for('static', filename='img/run_results_conteudo2.png') }}" alt="Resultado da importação no Neo4j - Conteúdos" style="width: 100%; height: auto; border: 1px solid #323238; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+                                                <figcaption><i>resultado da tabela .CSV: "conteudos"</i></figcaption>
+                                            </figure>
+                                            <figure style="margin: 0; width: 480px; max-width: 100%;">
+                                                <img src="{{ url_for('static', filename='img/run_results_events.png') }}" alt="Resultado da importação no Neo4j - Eventos" style="width: 100%; height: auto; border: 1px solid #323238; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+                                                <figcaption><i>resultado da tabela .CSV: "eventos"</i></figcaption>
+                                            </figure>
+                                            <figure style="margin: 0; width: 480px; max-width: 100%;">
+                                                <img src="{{ url_for('static', filename='img/run_results_relacionamento1.png') }}" alt="Resultado da importação no Neo4j - Eventos" style="width: 100%; height: auto; border: 1px solid #323238; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+                                                <figcaption><i>resultado da tabela .CSV: "relacionamentos"</i></figcaption>
+                                            </figure>
+                                            <figure style="margin: 0; width: 480px; max-width: 100%;">
+                                                <img src="{{ url_for('static', filename='img/run_results_relacionamento2.png') }}" alt="Resultado da importação no Neo4j - Eventos" style="width: 100%; height: auto; border: 1px solid #323238; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+                                                <figcaption><i>resultado da tabela .CSV: "relacionamentos"</i></figcaption>
+                                            </figure>
+                                            <figure style="margin: 0; width: 480px; max-width: 100%;">
+                                                <img src="{{ url_for('static', filename='img/run_results_users.png') }}" alt="Resultado da importação no Neo4j - Eventos" style="width: 100%; height: auto; border: 1px solid #323238; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
+                                                <figcaption><i>resultado da tabela .CSV: "usuarios"</i></figcaption>
+                                            </figure>
+                                        </div>
+                                            <h4> Resultado: </h4>
+                                                <div id="relacionamento1" style="width: 620px; height: 300px; margin: 0 auto; border: 2px solid #444; border-radius: 8px; background-color: #252525;"></div>
+                                                    <script type="text/javascript">
+                                                    // 1. Definir nós
+                                                        var nos = new vis.DataSet([
+                                                        { id: 1, label: "Usuário", color: { background: '#263b59', border: '#6ea8fe', highlight: { background: '#304b70', border: '#8bb9ff' } }, font: { color: '#e1e1e6' }, shape: 'dot', shadow: { enabled: true, color: 'rgba(110, 168, 254, 0.45)', size: 10, x: 0, y: 0 } },
+                                                        { id: 2, label: "Conteúdo", color: { background: '#592f35', border: '#ff7b86', highlight: { background: '#713d45', border: '#ff9da5' } }, font: { color: '#e1e1e6' }, shape: 'dot', shadow: { enabled: true, color: 'rgba(255, 123, 134, 0.4)', size: 10, x: 0, y: 0 } },
+                                                        { id: 3, label: "Evento", color: { background: '#315522', border: '#8bdc5c', highlight: { background: '#3d6b2a', border: '#a8ed7d' } }, font: { color: '#e1e1e6' }, shape: 'dot', shadow: { enabled: true, color: 'rgba(139, 220, 92, 0.4)', size: 10, x: 0, y: 0 } }
+                                                    ]); 
 
-                                    // 2. Definir conexões (Arestas)
-                                        var conexoes = new vis.DataSet([
-                                        { from: 1, to: 3, label: "GEROU_EVENTO"},
-                                        { from: 2, to: 3, label: "ASSISTIU_A"}
-                                        ]);
+                                                    // 2. Definir conexões (Arestas)
+                                                        var conexoes = new vis.DataSet([
+                                                        { from: 1, to: 3, label: "GEROU_EVENTO"},
+                                                        { from: 2, to: 3, label: "ASSISTIU_A"}
+                                                    ]);
 
-                                    // 3. Junte tudo e ligue o motor físico
-                                        var container = document.getElementById("relacionamento1");
-                                        var dados = { nodes: nos, edges: conexoes };
-                                        var opcoes = {
-                                        physics: {
-                                            enabled: true,
-                                                barnesHut: {
-                                                    // A força de repulsão entre as bolhas (quanto mais negativo, mais elas se afastam)
-                                                    gravitationalConstant: -8000, 
-                                                    // O tamanho padrão da linha (mola) que conecta uma bolha na outra
-                                                    springLength: 250, 
-                                                    // Evita que as bolhas fiquem se sobrepondo caso não tenham conexões
-                                                    avoidOverlap: 0.5 
-                                                }
-                                            }
-                                        };
+                                                    // 3. Junte tudo e ligue o motor físico
+                                                        var container = document.getElementById("relacionamento1");
+                                                        var dados = { nodes: nos, edges: conexoes };
+                                                        var opcoes = {
+                                                        physics: {
+                                                            enabled: true,
+                                                            barnesHut: {
+                                                                // A força de repulsão entre as bolhas (quanto mais negativo, mais elas se afastam)
+                                                                gravitationalConstant: -8000, 
+                                                                // O tamanho padrão da linha (mola) que conecta uma bolha na outra
+                                                                springLength: 250, 
+                                                                // Evita que as bolhas fiquem se sobrepondo caso não tenham conexões
+                                                                avoidOverlap: 0.5 
+                                                                }
+                                                            }
+                                                        };
   
                                         var network = new vis.Network(container, dados, opcoes);
-                                    </script>
-                                        <i> pág.3 - Dados gerados com informações de 4 meses para simulação do comportamento dentro do aplicativo </i>
-                                            <div class = "relacao01">
-                                               
-                                            </div>
-                                                <h4> Notas: </h4>
-                                                    <p style = "margin-bottom: 40px;">
-                                                        Dados criados para adicionar contexto adicional ao projeto, com mais de 400 instâncias. <br>
-                                                    </p>
+                                                    </script>
                                                         <i style = "font-size: 12px; color: #7c7c8a;">
-                                                            • Período simulado: 13/05/2026 a 13/09/2026 (4 meses).<br>
-                                                            • Cada usuário tem entre 2 e 4 gêneros preferidos e um nível de atividade (baixo/médio/alto), o que gera volumes de eventos diferentes por pessoa.<br>
-                                                            • ~72% das sessões seguem os gêneros preferidos do usuário; ~28% são "exploração" de outros gêneros (padrão comum em serviços de streaming).<br>
-                                                            • Para Séries/Minisséries, "Duração da Sessão" = duração média do episódio × episódios assistidos na sessão (sessões de binge-watching de 1 a 4 episódios). <br>
-                                                            • "Tempo Assistido" = Duração da Sessão × % Assistido (parte da sessão realmente vista pelo usuário).<br>
-                                                            • "Concluiu?" = Sim quando % Assistido ≥ 90%.<br>
-                                                        </i> 
+                                                            • O arquivo JSON (disponível nos repositórios) contém a estrutura de nós e conexões para importação no Neo4j Bloom, <br> 
+                                                            permitindo a visualização interativa do relacionamento entre Usuários, Conteúdos e Eventos. 
+                                                        </i>
+                                    </div> 
                     </div>
+                    <div class = "etapa03"> 
+                        <h3> 3. Análise dos Dados e criação de visuais em grafos no bloom </h3>
+                            <h3>Análise de Grafos (Interativo)</h3>
+                                    <style>
+                                        .container-svgs {
+                                            display: flex;
+                                            gap: 20px;
+                                            margin-top: 15px;
+                                            align-items: stretch;
+                                        }
+                                        .svg-coluna {
+                                            width: 50%;
+                                            text-align: center;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                        }
+                                        .caixa-svg {
+                                            border: 2px solid #444;
+                                            background-color: #1e1e1e;
+                                            border-radius: 8px;
+                                            width: 100%;
+                                            height: 500px;
+                                            display: block;
+                                        }
+                                    </style>                            
+                                        <div class="container-svgs">
+                                            <div class="svg-coluna">
+                                                <embed id="visualbloom_reduzido" class="caixa-svg" type="image/svg+xml" src="{{ url_for('static', filename='svg/visualbloom_reduzido.svg') }}" />
+                                                <p style="margin-top: 10px; color: #7c7c8a; font-size: 12px; line-height: 1.6;">
+                                                    Visualização reduzida do grafo, destacando a estrutura geral de conexão entre usuários, conteúdos e eventos.
+                                                </p>
+                                            </div>
+                                            <div class="svg-coluna">
+                                                <embed id="visualbloom" class="caixa-svg" type="image/svg+xml" src="{{ url_for('static', filename='svg/visualbloom.svg') }}" />
+                                                <p style="margin-top: 10px; color: #7c7c8a; font-size: 12px; line-height: 1.6;">
+                                                    Visualização completa do grafo, permitindo analisar com mais detalhes os relacionamentos e padrões de consumo.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p style="margin-top: 20px; color: #7c7c8a; font-size: 12px; text-align: center; line-height: 1.6;">
+                    </div>
+        <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+        <script>
+            // Aguarda a página carregar completamente
+            window.onload = function() {
+            // Ativa o zoom no primeiro SVG
+            svgPanZoom('#visualbloom_reduzido', {
+                zoomEnabled: true,
+                controlIconsEnabled: true, // Adiciona botões de + e - na tela
+                fit: true, 
+                center: true
+                });
 
+            // Ativa o zoom no segundo SVG
+            svgPanZoom('#visualbloom', {
+                zoomEnabled: true,
+                controlIconsEnabled: true,
+                fit: true,
+                center: true
+                });
+            };
+        </script>
     </body>
