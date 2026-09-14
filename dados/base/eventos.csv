@@ -1,0 +1,436 @@
+ID Evento,Data,Hora,ID Usuário,Usuário,E-mail,Idade,Cidade/UF,Gênero (Usuário),Data de Cadastro,Título,Gênero,Tipo,Episódios Assistidos,Duração da Sessão (min),Tempo Assistido (min),% Assistido,Concluiu?,Dispositivo
+1,2026-05-14,12:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,As Branquelas,Comédia,Filme,-,114,99,0.87,Não,Console
+2,2026-05-14,23:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Kill Bill: Volume 1,Ação,Filme,-,122,121,0.99,Sim,Smart TV
+3,2026-05-15,19:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,American Horror Story,Terror,Série (antologia),2,90,90,1,Sim,Celular
+4,2026-05-16,09:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,American Horror Story,Terror,Série (antologia),2,90,82,0.91,Sim,Smart TV
+5,2026-05-16,11:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Modern Love,Romance,Série (antologia),2,92,81,0.88,Não,Smart TV
+6,2026-05-16,22:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,X-Men: A Série Animada,Animação,Série (animação),1,56,50,0.9,Sim,Smart TV
+7,2026-05-17,21:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Sexto Sentido,Suspense,Filme,-,136,118,0.87,Não,Smart TV
+8,2026-05-17,23:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Duro de Matar,Ação,Filme,-,124,122,0.98,Sim,Smart TV
+9,2026-05-18,14:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Clube da Luta,Drama,Filme,-,103,47,0.46,Não,Celular
+10,2026-05-18,19:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,007 - Operação Skyfall,Ação,Filme,-,106,99,0.93,Sim,Notebook/PC
+11,2026-05-19,10:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Interestelar,Ficção Científica,Filme,-,101,60,0.59,Não,Smart TV
+12,2026-05-19,16:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Atividade Paranormal,Terror,Filme,-,112,22,0.2,Não,Notebook/PC
+13,2026-05-20,07:45,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Outlander,Romance,Série,1,54,54,1,Sim,Smart TV
+14,2026-05-20,12:00,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Hereditário,Terror,Filme,-,95,90,0.95,Sim,Smart TV
+15,2026-05-20,14:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Arcane,Animação,Série (animação),1,55,19,0.34,Não,Smart TV
+16,2026-05-20,19:30,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,X-Men: A Série Animada,Animação,Série (animação),1,56,50,0.89,Não,Celular
+17,2026-05-21,15:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Invencível,Animação,Série (animação),1,42,39,0.93,Sim,Smart TV
+18,2026-05-22,21:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Rick and Morty,Animação,Série (animação),3,171,157,0.92,Sim,Smart TV
+19,2026-05-24,11:45,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Fleabag,Comédia,Série,3,174,108,0.62,Não,Celular
+20,2026-05-24,17:45,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Modern Love,Romance,Série (antologia),1,46,39,0.85,Não,Smart TV
+21,2026-05-24,17:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Blade Runner,Ficção Científica,Filme,-,107,105,0.98,Sim,Tablet
+22,2026-05-24,23:15,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Origem (From),Terror,Série,4,156,150,0.96,Sim,Smart TV
+23,2026-05-24,23:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Interestelar,Ficção Científica,Filme,-,101,68,0.67,Não,Celular
+24,2026-05-25,10:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Matrix,Ficção Científica,Filme,-,147,87,0.59,Não,Smart TV
+25,2026-05-25,14:15,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Titanic,Romance,Filme,-,129,119,0.92,Sim,Smart TV
+26,2026-05-25,22:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Modern Family,Comédia,Série,2,110,100,0.91,Sim,Smart TV
+27,2026-05-25,22:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,The Expanse,Ficção Científica,Série,1,38,18,0.47,Não,Notebook/PC
+28,2026-05-26,07:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Bridgerton,Romance,Série,3,165,30,0.18,Não,Smart TV
+29,2026-05-26,07:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,007 - Operação Skyfall,Ação,Filme,-,106,77,0.73,Não,Celular
+30,2026-05-26,09:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,IT A Coisa,Terror,Filme,-,106,94,0.89,Não,Smart TV
+31,2026-05-26,10:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,The Expanse,Ficção Científica,Série,1,38,31,0.82,Não,Notebook/PC
+32,2026-05-26,11:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Free Solo,Documentário,Documentário,-,117,112,0.96,Sim,Smart TV
+33,2026-05-26,11:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Atividade Paranormal,Terror,Filme,-,112,109,0.97,Sim,Smart TV
+34,2026-05-26,11:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Demolidor,Ação,Série,1,36,23,0.64,Não,Smart TV
+35,2026-05-26,12:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Antes do Amanhecer,Romance,Filme,-,102,92,0.9,Sim,Celular
+36,2026-05-26,15:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,True Detective,Suspense,Série (antologia),2,84,81,0.96,Sim,Smart TV
+37,2026-05-26,17:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,132,0.94,Sim,Celular
+38,2026-05-26,22:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Avatar: O Último Mestre do Ar (live-action),Fantasia,Série,1,56,38,0.67,Não,Smart TV
+39,2026-05-27,09:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,O Poderoso Chefão,Drama,Filme,-,111,109,0.98,Sim,Celular
+40,2026-05-27,10:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,O Iluminado,Terror,Filme,-,85,10,0.12,Não,Smart TV
+41,2026-05-27,11:30,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Free Solo,Documentário,Documentário,-,117,116,0.99,Sim,Smart TV
+42,2026-05-27,15:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Ilha do Medo,Suspense,Filme,-,140,123,0.88,Não,Celular
+43,2026-05-27,16:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,A Chegada,Ficção Científica,Filme,-,117,27,0.23,Não,Celular
+44,2026-05-27,21:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Modern Love,Romance,Série (antologia),3,138,121,0.88,Não,Celular
+45,2026-05-27,21:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,A Chegada,Ficção Científica,Filme,-,117,64,0.55,Não,Smart TV
+46,2026-05-27,21:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Senna,Documentário,Documentário,-,87,86,0.99,Sim,Smart TV
+47,2026-05-28,07:15,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Diário de uma Paixão,Romance,Filme,-,130,124,0.95,Sim,Tablet
+48,2026-05-28,08:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,O Poderoso Chefão,Drama,Filme,-,111,71,0.64,Não,Celular
+49,2026-05-28,11:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Olhos que Condenam,Drama,Minissérie,2,70,69,0.99,Sim,Celular
+50,2026-05-28,13:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Game of Thrones,Fantasia,Série,1,46,24,0.52,Não,Smart TV
+51,2026-05-28,16:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,O Silêncio dos Inocentes,Suspense,Filme,-,107,67,0.63,Não,Tablet
+52,2026-05-28,19:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,007 - Operação Skyfall,Ação,Filme,-,106,33,0.31,Não,Smart TV
+53,2026-05-28,20:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,"Se Beber, Não Case!",Comédia,Filme,-,107,96,0.9,Sim,Celular
+54,2026-05-28,21:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,123,0.88,Não,Celular
+55,2026-05-28,22:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Olhos que Condenam,Drama,Minissérie,2,70,69,0.98,Sim,Smart TV
+56,2026-05-29,08:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,O Auto da Compadecida,Comédia,Filme,-,106,35,0.33,Não,Smart TV
+57,2026-05-29,09:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Atividade Paranormal,Terror,Filme,-,112,25,0.22,Não,Smart TV
+58,2026-05-29,13:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Titanic,Romance,Filme,-,129,66,0.51,Não,Notebook/PC
+59,2026-05-29,13:00,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,O Exorcista,Terror,Filme,-,102,98,0.96,Sim,Celular
+60,2026-05-30,15:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,O Auto da Compadecida,Comédia,Filme,-,106,80,0.75,Não,Celular
+61,2026-05-30,18:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Origem (From),Terror,Série,3,117,116,0.99,Sim,Smart TV
+62,2026-05-30,19:30,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,O Poderoso Chefão,Drama,Filme,-,111,103,0.93,Sim,Console
+63,2026-05-31,16:45,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,American Horror Story,Terror,Série (antologia),1,45,42,0.93,Sim,Smart TV
+64,2026-06-01,09:00,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Antes do Amanhecer,Romance,Filme,-,102,30,0.29,Não,Tablet
+65,2026-06-01,10:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Demolidor,Ação,Série,2,72,71,0.98,Sim,Celular
+66,2026-06-01,20:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Sexto Sentido,Suspense,Filme,-,136,122,0.9,Sim,Smart TV
+67,2026-06-01,21:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Dark,Ficção Científica,Série,1,42,21,0.5,Não,Smart TV
+68,2026-06-01,23:45,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Um Sonho de Liberdade,Drama,Filme,-,154,136,0.88,Não,Smart TV
+69,2026-06-02,07:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Forrest Gump,Drama,Filme,-,104,97,0.93,Sim,Celular
+70,2026-06-02,10:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,BoJack Horseman,Animação,Série (animação),4,208,202,0.97,Sim,Celular
+71,2026-06-02,20:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Blade Runner,Ficção Científica,Filme,-,107,96,0.9,Sim,Celular
+72,2026-06-03,20:30,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Curtindo a Vida Adoidado,Comédia,Filme,-,87,76,0.87,Não,Smart TV
+73,2026-06-03,20:45,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Toy Story 3,Animação,Filme (animação),-,90,31,0.34,Não,Celular
+74,2026-06-04,12:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Olhos que Condenam,Drama,Minissérie,4,140,130,0.93,Sim,Smart TV
+75,2026-06-04,19:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,The Expanse,Ficção Científica,Série,2,76,38,0.5,Não,Tablet
+76,2026-06-05,09:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,American Horror Story,Terror,Série (antologia),1,45,45,0.99,Sim,Celular
+77,2026-06-05,11:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Origem (From),Terror,Série,2,78,67,0.86,Não,Smart TV
+78,2026-06-05,12:45,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Hereditário,Terror,Filme,-,95,45,0.47,Não,Smart TV
+79,2026-06-05,19:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Ted Lasso,Comédia,Série,1,40,37,0.93,Sim,Tablet
+80,2026-06-06,10:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Hereditário,Terror,Filme,-,95,22,0.23,Não,Smart TV
+81,2026-06-06,15:15,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Nosso Planeta,Documentário,Documentário (natureza),-,81,40,0.5,Não,Celular
+82,2026-06-07,07:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Senna,Documentário,Documentário,-,87,71,0.82,Não,Smart TV
+83,2026-06-07,11:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Psicose,Suspense,Filme,-,130,47,0.36,Não,Smart TV
+84,2026-06-07,13:30,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,"Bom Dia, Verônica",Suspense,Série,1,53,46,0.87,Não,Notebook/PC
+85,2026-06-08,15:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Demolidor,Ação,Série,2,72,41,0.57,Não,Celular
+86,2026-06-08,18:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Demolidor,Ação,Série,3,108,13,0.12,Não,Smart TV
+87,2026-06-08,21:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Duro de Matar,Ação,Filme,-,124,123,0.99,Sim,Celular
+88,2026-06-08,22:30,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Sandman,Fantasia,Série,2,92,79,0.86,Não,Smart TV
+89,2026-06-09,17:45,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,"Se Beber, Não Case!",Comédia,Filme,-,107,94,0.88,Não,Smart TV
+90,2026-06-10,07:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Todo Mundo em Pânico,Comédia,Filme,-,105,90,0.86,Não,Notebook/PC
+91,2026-06-10,14:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Ilha das Flores,Documentário,Curta-documentário,-,12,12,0.99,Sim,Smart TV
+92,2026-06-10,16:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Black Mirror,Ficção Científica,Série (antologia),1,42,39,0.93,Sim,Notebook/PC
+93,2026-06-10,19:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Breaking Bad,Drama,Série,1,41,41,1,Sim,Notebook/PC
+94,2026-06-11,09:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Psicose,Suspense,Filme,-,130,127,0.98,Sim,Smart TV
+95,2026-06-11,14:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Chernobyl,Drama,Minissérie,3,153,112,0.73,Não,Console
+96,2026-06-12,13:30,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,A Linha Tênue,Documentário,Documentário,-,120,29,0.24,Não,Notebook/PC
+97,2026-06-12,19:15,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Arquivo X,Ficção Científica,Série,4,156,55,0.35,Não,Notebook/PC
+98,2026-06-13,15:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,La Casa de Papel,Suspense,Série,1,48,12,0.25,Não,Smart TV
+99,2026-06-13,21:45,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,As Branquelas,Comédia,Filme,-,114,100,0.88,Não,Celular
+100,2026-06-14,09:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Breaking Bad,Drama,Série,1,41,35,0.86,Não,Notebook/PC
+101,2026-06-14,13:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Ilha do Medo,Suspense,Filme,-,140,132,0.94,Sim,Smart TV
+102,2026-06-15,21:00,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Clube da Luta,Drama,Filme,-,103,103,1,Sim,Smart TV
+103,2026-06-15,21:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,O Rei Leão,Animação,Filme (animação),-,99,99,1,Sim,Smart TV
+104,2026-06-16,10:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,The Office (US),Comédia,Série,2,108,10,0.09,Não,Smart TV
+105,2026-06-16,19:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,A Maldição da Residência Hill,Terror,Série,1,43,41,0.96,Sim,Notebook/PC
+106,2026-06-16,21:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Ruptura,Ficção Científica,Série,2,116,63,0.54,Não,Smart TV
+107,2026-06-17,08:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,The Last of Us,Terror,Série,2,82,81,0.99,Sim,Notebook/PC
+108,2026-06-17,09:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,The Office (US),Comédia,Série,1,54,10,0.18,Não,Celular
+109,2026-06-17,11:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Modern Love,Romance,Série (antologia),1,46,44,0.95,Sim,Smart TV
+110,2026-06-17,22:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,The Boys,Ação,Série,1,54,52,0.97,Sim,Console
+111,2026-06-17,23:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Democracia em Vertigem,Documentário,Documentário,-,79,76,0.96,Sim,Console
+112,2026-06-18,08:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Outlander,Romance,Série,1,54,39,0.73,Não,Celular
+113,2026-06-18,10:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,A Maldição da Residência Hill,Terror,Série,2,86,70,0.81,Não,Notebook/PC
+114,2026-06-18,12:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Kill Bill: Volume 1,Ação,Filme,-,122,107,0.88,Não,Celular
+115,2026-06-18,15:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,O Sexto Sentido,Suspense,Filme,-,136,132,0.97,Sim,Notebook/PC
+116,2026-06-18,16:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Ruptura,Ficção Científica,Série,1,58,42,0.72,Não,Smart TV
+117,2026-06-19,13:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Interestelar,Ficção Científica,Filme,-,101,91,0.9,Sim,Celular
+118,2026-06-19,16:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Arquivo X,Ficção Científica,Série,1,39,35,0.91,Sim,Console
+119,2026-06-19,16:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Breaking Bad,Drama,Série,1,41,38,0.92,Sim,Celular
+120,2026-06-19,18:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,The Crown,Drama,Série,2,108,53,0.49,Não,Console
+121,2026-06-19,21:00,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Succession,Drama,Série,1,42,23,0.55,Não,Celular
+122,2026-06-19,22:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Arquivo X,Ficção Científica,Série,2,78,70,0.9,Sim,Smart TV
+123,2026-06-20,07:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Black Mirror,Ficção Científica,Série (antologia),4,168,161,0.96,Sim,Celular
+124,2026-06-20,08:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Band of Brothers,Ação,Minissérie,3,129,125,0.97,Sim,Smart TV
+125,2026-06-20,09:30,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Mindhunter,Suspense,Série,3,156,17,0.11,Não,Tablet
+126,2026-06-20,11:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,The Expanse,Ficção Científica,Série,1,38,27,0.7,Não,Smart TV
+127,2026-06-20,11:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Duro de Matar,Ação,Filme,-,124,113,0.91,Sim,Tablet
+128,2026-06-20,13:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,"Se Beber, Não Case!",Comédia,Filme,-,107,30,0.28,Não,Tablet
+129,2026-06-20,21:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,A Maldição da Residência Hill,Terror,Série,2,86,78,0.91,Sim,Notebook/PC
+130,2026-06-20,21:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Clube da Luta,Drama,Filme,-,103,32,0.31,Não,Celular
+131,2026-06-21,07:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Mindhunter,Suspense,Série,1,52,45,0.87,Não,Smart TV
+132,2026-06-21,07:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,The Last of Us,Terror,Série,2,82,53,0.65,Não,Smart TV
+133,2026-06-21,17:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,134,0.96,Sim,Smart TV
+134,2026-06-22,14:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,The Witcher,Fantasia,Série,1,43,39,0.91,Sim,Notebook/PC
+135,2026-06-22,15:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,La Casa de Papel,Suspense,Série,3,144,128,0.89,Não,Celular
+136,2026-06-22,15:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Arquivo X,Ficção Científica,Série,1,39,37,0.96,Sim,Console
+137,2026-06-22,18:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Antes do Amanhecer,Romance,Filme,-,102,85,0.83,Não,Celular
+138,2026-06-22,19:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Interestelar,Ficção Científica,Filme,-,101,90,0.89,Não,Smart TV
+139,2026-06-22,20:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,120,0.86,Não,Tablet
+140,2026-06-23,08:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,A Maldição da Residência Hill,Terror,Série,3,129,103,0.8,Não,Smart TV
+141,2026-06-23,10:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Band of Brothers,Ação,Minissérie,2,86,65,0.76,Não,Smart TV
+142,2026-06-23,17:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Parasita,Drama,Filme,-,111,98,0.88,Não,Smart TV
+143,2026-06-24,09:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Shrek 2,Animação,Filme (animação),-,97,82,0.85,Não,Smart TV
+144,2026-06-24,09:15,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,The Crown,Drama,Série,2,108,52,0.48,Não,Smart TV
+145,2026-06-24,10:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Wild Wild Country,Documentário,Documentário,-,80,22,0.28,Não,Smart TV
+146,2026-06-24,15:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Ilha das Flores,Documentário,Curta-documentário,-,12,11,0.88,Não,Console
+147,2026-06-24,21:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Ilha do Medo,Suspense,Filme,-,140,71,0.51,Não,Smart TV
+148,2026-06-24,22:30,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Breaking Bad,Drama,Série,3,123,41,0.33,Não,Tablet
+149,2026-06-24,22:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,La Casa de Papel,Suspense,Série,2,96,86,0.9,Sim,Smart TV
+150,2026-06-25,19:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Antes do Amanhecer,Romance,Filme,-,102,102,1,Sim,Notebook/PC
+151,2026-06-25,19:30,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Toy Story 3,Animação,Filme (animação),-,90,88,0.98,Sim,Smart TV
+152,2026-06-25,23:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Succession,Drama,Série,1,42,13,0.31,Não,Tablet
+153,2026-06-26,14:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,The Office (US),Comédia,Série,3,162,138,0.85,Não,Tablet
+154,2026-06-26,17:45,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,IT A Coisa,Terror,Filme,-,106,100,0.94,Sim,Celular
+155,2026-06-27,18:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Titanic,Romance,Filme,-,129,111,0.86,Não,Smart TV
+156,2026-06-27,21:30,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,O Rei Leão,Animação,Filme (animação),-,99,48,0.48,Não,Notebook/PC
+157,2026-06-27,23:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Curtindo a Vida Adoidado,Comédia,Filme,-,87,57,0.66,Não,Smart TV
+158,2026-06-28,09:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,O Auto da Compadecida,Comédia,Filme,-,106,47,0.44,Não,Smart TV
+159,2026-06-28,11:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Akira,Animação,Filme (animação),-,93,38,0.41,Não,Notebook/PC
+160,2026-06-28,16:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Mindhunter,Suspense,Série,1,52,46,0.88,Não,Console
+161,2026-06-28,18:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Forrest Gump,Drama,Filme,-,104,96,0.92,Sim,Notebook/PC
+162,2026-06-29,12:00,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Olhos que Condenam,Drama,Minissérie,1,35,8,0.22,Não,Tablet
+163,2026-06-29,12:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Um Sonho de Liberdade,Drama,Filme,-,154,79,0.51,Não,Smart TV
+164,2026-06-29,19:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Um Sonho de Liberdade,Drama,Filme,-,154,88,0.57,Não,Smart TV
+165,2026-06-29,21:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Band of Brothers,Ação,Minissérie,4,172,153,0.89,Não,Smart TV
+166,2026-06-29,23:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Modern Family,Comédia,Série,2,110,97,0.88,Não,Notebook/PC
+167,2026-06-30,10:30,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Titanic,Romance,Filme,-,129,75,0.58,Não,Celular
+168,2026-06-30,14:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Orgulho e Preconceito,Romance,Filme,-,119,112,0.94,Sim,Notebook/PC
+169,2026-06-30,14:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,IT A Coisa,Terror,Filme,-,106,95,0.9,Sim,Celular
+170,2026-06-30,21:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Reacher,Ação,Série,3,147,98,0.67,Não,Smart TV
+171,2026-07-01,10:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Psicose,Suspense,Filme,-,130,81,0.62,Não,Tablet
+172,2026-07-01,22:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Bridgerton,Romance,Série,2,110,29,0.26,Não,Smart TV
+173,2026-07-02,08:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,O Exorcista,Terror,Filme,-,102,38,0.37,Não,Celular
+174,2026-07-02,11:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Curtindo a Vida Adoidado,Comédia,Filme,-,87,26,0.3,Não,Smart TV
+175,2026-07-02,14:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Demolidor,Ação,Série,2,72,22,0.3,Não,Tablet
+176,2026-07-02,16:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,A Máfia dos Tigres (Tiger King),Documentário,Documentário,-,93,59,0.63,Não,Smart TV
+177,2026-07-02,21:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Modern Love,Romance,Série (antologia),2,92,60,0.65,Não,Smart TV
+178,2026-07-02,23:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,The Last of Us,Terror,Série,1,41,9,0.23,Não,Console
+179,2026-07-03,18:45,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Invencível,Animação,Série (animação),2,84,59,0.7,Não,Notebook/PC
+180,2026-07-05,07:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,IT A Coisa,Terror,Filme,-,106,78,0.74,Não,Notebook/PC
+181,2026-07-05,08:30,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Bridgerton,Romance,Série,3,165,163,0.99,Sim,Tablet
+182,2026-07-05,17:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Antes do Amanhecer,Romance,Filme,-,102,99,0.97,Sim,Notebook/PC
+183,2026-07-05,19:00,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Wild Wild Country,Documentário,Documentário,-,80,70,0.88,Não,Notebook/PC
+184,2026-07-05,19:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Band of Brothers,Ação,Minissérie,1,43,40,0.94,Sim,Smart TV
+185,2026-07-05,22:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Um Sonho de Liberdade,Drama,Filme,-,154,154,1,Sim,Console
+186,2026-07-05,23:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,A Maldição da Residência Hill,Terror,Série,1,43,38,0.89,Não,Tablet
+187,2026-07-05,23:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,X-Men: A Série Animada,Animação,Série (animação),2,112,105,0.94,Sim,Notebook/PC
+188,2026-07-06,10:00,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Diário de uma Paixão,Romance,Filme,-,130,124,0.95,Sim,Notebook/PC
+189,2026-07-06,19:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Todo Mundo em Pânico,Comédia,Filme,-,105,91,0.87,Não,Smart TV
+190,2026-07-06,20:45,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,A Linha Tênue,Documentário,Documentário,-,120,109,0.91,Sim,Notebook/PC
+191,2026-07-07,07:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Nosso Planeta,Documentário,Documentário (natureza),-,81,70,0.86,Não,Smart TV
+192,2026-07-07,10:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Blade Runner,Ficção Científica,Filme,-,107,92,0.86,Não,Notebook/PC
+193,2026-07-08,21:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,The Last Dance,Documentário,Documentário,-,89,58,0.65,Não,Tablet
+194,2026-07-08,21:30,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,O Mistério de Jinx,Documentário,Documentário,-,89,82,0.92,Sim,Smart TV
+195,2026-07-08,22:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,True Detective,Suspense,Série (antologia),2,84,77,0.92,Sim,Smart TV
+196,2026-07-09,08:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Fleabag,Comédia,Série,2,116,55,0.47,Não,Celular
+197,2026-07-09,21:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,007 - Operação Skyfall,Ação,Filme,-,106,30,0.28,Não,Smart TV
+198,2026-07-09,22:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Invencível,Animação,Série (animação),3,126,25,0.2,Não,Smart TV
+199,2026-07-09,22:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,The Expanse,Ficção Científica,Série,3,114,79,0.69,Não,Smart TV
+200,2026-07-10,07:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Homem-Aranha: No Aranhaverso,Animação,Filme (animação),-,92,89,0.97,Sim,Notebook/PC
+201,2026-07-10,08:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Forrest Gump,Drama,Filme,-,104,101,0.97,Sim,Smart TV
+202,2026-07-10,09:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Arquivo X,Ficção Científica,Série,1,39,38,0.97,Sim,Smart TV
+203,2026-07-10,12:30,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Fleabag,Comédia,Série,1,58,50,0.87,Não,Notebook/PC
+204,2026-07-10,15:45,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Forrest Gump,Drama,Filme,-,104,95,0.91,Sim,Celular
+205,2026-07-12,14:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Ruptura,Ficção Científica,Série,2,116,67,0.58,Não,Celular
+206,2026-07-12,23:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Ilha das Flores,Documentário,Curta-documentário,-,12,11,0.94,Sim,Smart TV
+207,2026-07-13,07:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Atividade Paranormal,Terror,Filme,-,112,46,0.41,Não,Notebook/PC
+208,2026-07-13,08:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,A Chegada,Ficção Científica,Filme,-,117,115,0.98,Sim,Smart TV
+209,2026-07-13,09:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Band of Brothers,Ação,Minissérie,1,43,31,0.71,Não,Celular
+210,2026-07-14,08:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,La Casa de Papel,Suspense,Série,3,144,39,0.27,Não,Smart TV
+211,2026-07-14,11:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Ted Lasso,Comédia,Série,4,160,125,0.78,Não,Notebook/PC
+212,2026-07-14,15:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,A Maldição da Residência Hill,Terror,Série,1,43,41,0.95,Sim,Smart TV
+213,2026-07-14,21:00,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Modern Love,Romance,Série (antologia),2,92,64,0.7,Não,Smart TV
+214,2026-07-14,21:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Toy Story 3,Animação,Filme (animação),-,90,86,0.95,Sim,Smart TV
+215,2026-07-14,23:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,The Boys,Ação,Série,2,108,96,0.89,Não,Smart TV
+216,2026-07-15,09:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Tropa de Elite,Ação,Filme,-,122,106,0.87,Não,Console
+217,2026-07-15,11:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Atividade Paranormal,Terror,Filme,-,112,50,0.45,Não,Tablet
+218,2026-07-15,21:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,A Chegada,Ficção Científica,Filme,-,117,109,0.93,Sim,Notebook/PC
+219,2026-07-16,10:45,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Missa da Meia-Noite,Terror,Minissérie,3,114,11,0.1,Não,Celular
+220,2026-07-16,12:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,BoJack Horseman,Animação,Série (animação),2,104,100,0.96,Sim,Notebook/PC
+221,2026-07-16,18:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Black Mirror,Ficção Científica,Série (antologia),2,84,76,0.91,Sim,Smart TV
+222,2026-07-16,19:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Tropa de Elite,Ação,Filme,-,122,118,0.97,Sim,Celular
+223,2026-07-16,23:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,As Branquelas,Comédia,Filme,-,114,111,0.97,Sim,Celular
+224,2026-07-17,12:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Um Sonho de Liberdade,Drama,Filme,-,154,89,0.58,Não,Smart TV
+225,2026-07-17,12:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Arquivo X,Ficção Científica,Série,3,117,91,0.78,Não,Smart TV
+226,2026-07-18,10:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Ruptura,Ficção Científica,Série,3,174,171,0.98,Sim,Smart TV
+227,2026-07-18,15:15,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Diário de uma Paixão,Romance,Filme,-,130,113,0.87,Não,Smart TV
+228,2026-07-18,16:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Breaking Bad,Drama,Série,4,164,25,0.15,Não,Smart TV
+229,2026-07-18,20:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,The Expanse,Ficção Científica,Série,1,38,33,0.86,Não,Celular
+230,2026-07-19,21:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Blade Runner,Ficção Científica,Filme,-,107,24,0.22,Não,Tablet
+231,2026-07-20,07:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Succession,Drama,Série,2,84,71,0.85,Não,Tablet
+232,2026-07-20,10:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Ruptura,Ficção Científica,Série,1,58,56,0.97,Sim,Smart TV
+233,2026-07-20,13:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,BoJack Horseman,Animação,Série (animação),1,52,34,0.65,Não,Smart TV
+234,2026-07-20,15:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Tropa de Elite,Ação,Filme,-,122,79,0.65,Não,Smart TV
+235,2026-07-20,16:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Exorcista,Terror,Filme,-,102,98,0.96,Sim,Celular
+236,2026-07-21,08:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Olhos que Condenam,Drama,Minissérie,2,70,64,0.91,Sim,Console
+237,2026-07-21,12:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Dark,Ficção Científica,Série,2,84,78,0.93,Sim,Console
+238,2026-07-21,18:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Modern Love,Romance,Série (antologia),1,46,43,0.94,Sim,Tablet
+239,2026-07-21,22:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Arcane,Animação,Série (animação),4,220,53,0.24,Não,Smart TV
+240,2026-07-21,23:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,American Horror Story,Terror,Série (antologia),3,135,63,0.47,Não,Celular
+241,2026-07-22,11:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Diário de uma Paixão,Romance,Filme,-,130,116,0.89,Não,Tablet
+242,2026-07-22,12:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Invencível,Animação,Série (animação),2,84,39,0.46,Não,Celular
+243,2026-07-22,14:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Shrek 2,Animação,Filme (animação),-,97,82,0.85,Não,Smart TV
+244,2026-07-22,18:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Reacher,Ação,Série,2,98,97,0.99,Sim,Smart TV
+245,2026-07-22,22:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Mad Max: Estrada da Fúria,Ação,Filme,-,105,96,0.91,Sim,Celular
+246,2026-07-23,07:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,The Boys,Ação,Série,3,162,152,0.94,Sim,Smart TV
+247,2026-07-23,17:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Chernobyl,Drama,Minissérie,2,102,94,0.92,Sim,Celular
+248,2026-07-23,17:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Titanic,Romance,Filme,-,129,81,0.63,Não,Celular
+249,2026-07-24,08:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Olhos que Condenam,Drama,Minissérie,3,105,70,0.67,Não,Smart TV
+250,2026-07-24,14:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,"As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",Fantasia,Filme,-,146,133,0.91,Sim,Smart TV
+251,2026-07-24,14:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,As Branquelas,Comédia,Filme,-,114,104,0.91,Sim,Smart TV
+252,2026-07-24,17:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Fleabag,Comédia,Série,4,232,139,0.6,Não,Smart TV
+253,2026-07-24,21:15,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Ilha do Medo,Suspense,Filme,-,140,27,0.19,Não,Smart TV
+254,2026-07-25,09:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Curtindo a Vida Adoidado,Comédia,Filme,-,87,77,0.89,Não,Celular
+255,2026-07-25,11:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Chernobyl,Drama,Minissérie,3,153,31,0.2,Não,Smart TV
+256,2026-07-25,19:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,115,0.82,Não,Notebook/PC
+257,2026-07-25,19:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Duro de Matar,Ação,Filme,-,124,100,0.81,Não,Notebook/PC
+258,2026-07-25,22:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Hereditário,Terror,Filme,-,95,75,0.79,Não,Tablet
+259,2026-07-25,23:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,O Mistério de Jinx,Documentário,Documentário,-,89,34,0.38,Não,Celular
+260,2026-07-26,08:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,True Detective,Suspense,Série (antologia),4,168,150,0.89,Não,Smart TV
+261,2026-07-26,17:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Antes do Amanhecer,Romance,Filme,-,102,96,0.94,Sim,Console
+262,2026-07-28,09:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Normal People,Romance,Série,4,176,158,0.9,Sim,Smart TV
+263,2026-07-29,09:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Demolidor,Ação,Série,2,72,39,0.54,Não,Smart TV
+264,2026-07-29,22:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,A Chegada,Ficção Científica,Filme,-,117,108,0.92,Sim,Smart TV
+265,2026-07-29,22:15,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Chernobyl,Drama,Minissérie,1,51,13,0.26,Não,Console
+266,2026-07-29,23:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Dark,Ficção Científica,Série,1,42,24,0.56,Não,Celular
+267,2026-07-30,07:15,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Hereditário,Terror,Filme,-,95,70,0.74,Não,Celular
+268,2026-07-30,08:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Ruptura,Ficção Científica,Série,1,58,35,0.6,Não,Celular
+269,2026-07-30,11:30,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Modern Family,Comédia,Série,2,110,48,0.44,Não,Smart TV
+270,2026-07-30,12:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,O Auto da Compadecida,Comédia,Filme,-,106,99,0.93,Sim,Smart TV
+271,2026-07-30,22:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,97,0.69,Não,Smart TV
+272,2026-07-31,09:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Breaking Bad,Drama,Série,1,41,39,0.95,Sim,Smart TV
+273,2026-07-31,11:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Arcane,Animação,Série (animação),1,55,43,0.79,Não,Notebook/PC
+274,2026-07-31,21:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Bridgerton,Romance,Série,3,165,148,0.9,Sim,Smart TV
+275,2026-08-01,07:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Duro de Matar,Ação,Filme,-,124,42,0.34,Não,Tablet
+276,2026-08-01,12:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Brooklyn Nine-Nine,Comédia,Série,3,156,144,0.92,Sim,Celular
+277,2026-08-01,19:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Poderoso Chefão,Drama,Filme,-,111,53,0.48,Não,Notebook/PC
+278,2026-08-01,22:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,The Last Dance,Documentário,Documentário,-,89,79,0.89,Não,Celular
+279,2026-08-02,09:30,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,007 - Operação Skyfall,Ação,Filme,-,106,96,0.91,Sim,Celular
+280,2026-08-02,12:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Interestelar,Ficção Científica,Filme,-,101,82,0.81,Não,Celular
+281,2026-08-02,15:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Senna,Documentário,Documentário,-,87,84,0.97,Sim,Tablet
+282,2026-08-02,16:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,O Silêncio dos Inocentes,Suspense,Filme,-,107,88,0.82,Não,Celular
+283,2026-08-02,19:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Blade Runner,Ficção Científica,Filme,-,107,66,0.62,Não,Celular
+284,2026-08-02,22:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,A Chegada,Ficção Científica,Filme,-,117,110,0.94,Sim,Celular
+285,2026-08-03,11:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Atividade Paranormal,Terror,Filme,-,112,104,0.93,Sim,Notebook/PC
+286,2026-08-03,12:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Modern Family,Comédia,Série,2,110,104,0.95,Sim,Celular
+287,2026-08-03,18:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,"Se Beber, Não Case!",Comédia,Filme,-,107,95,0.89,Não,Smart TV
+288,2026-08-03,19:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Succession,Drama,Série,1,42,18,0.42,Não,Celular
+289,2026-08-05,11:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Arquivo X,Ficção Científica,Série,1,39,30,0.76,Não,Console
+290,2026-08-05,14:45,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,The Crown,Drama,Série,1,54,52,0.96,Sim,Smart TV
+291,2026-08-05,17:00,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Democracia em Vertigem,Documentário,Documentário,-,79,41,0.52,Não,Notebook/PC
+292,2026-08-05,22:15,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Blade Runner,Ficção Científica,Filme,-,107,52,0.49,Não,Notebook/PC
+293,2026-08-06,18:15,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,O Iluminado,Terror,Filme,-,85,76,0.89,Não,Celular
+294,2026-08-06,18:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,The Crown,Drama,Série,1,54,21,0.38,Não,Smart TV
+295,2026-08-06,19:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,IT A Coisa,Terror,Filme,-,106,51,0.48,Não,Celular
+296,2026-08-07,08:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,The Office (US),Comédia,Série,3,162,32,0.2,Não,Smart TV
+297,2026-08-07,10:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Fleabag,Comédia,Série,4,232,227,0.98,Sim,Console
+298,2026-08-07,14:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Olhos que Condenam,Drama,Minissérie,1,35,33,0.95,Sim,Smart TV
+299,2026-08-08,07:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Band of Brothers,Ação,Minissérie,4,172,169,0.98,Sim,Notebook/PC
+300,2026-08-08,09:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Democracia em Vertigem,Documentário,Documentário,-,79,72,0.91,Sim,Notebook/PC
+301,2026-08-08,09:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,American Horror Story,Terror,Série (antologia),3,135,103,0.76,Não,Celular
+302,2026-08-08,12:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Modern Family,Comédia,Série,1,55,14,0.26,Não,Console
+303,2026-08-08,23:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Silêncio dos Inocentes,Suspense,Filme,-,107,93,0.87,Não,Celular
+304,2026-08-09,09:45,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Como se Fosse a Primeira Vez,Romance,Filme,-,100,89,0.89,Não,Celular
+305,2026-08-09,11:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,A Linha Tênue,Documentário,Documentário,-,120,106,0.88,Não,Smart TV
+306,2026-08-09,11:30,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,"Se Beber, Não Case!",Comédia,Filme,-,107,22,0.21,Não,Smart TV
+307,2026-08-09,11:45,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,The Boys,Ação,Série,1,54,49,0.9,Sim,Smart TV
+308,2026-08-09,13:45,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Hereditário,Terror,Filme,-,95,89,0.94,Sim,Smart TV
+309,2026-08-09,14:30,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,The Crown,Drama,Série,2,108,23,0.21,Não,Smart TV
+310,2026-08-09,15:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Dark,Ficção Científica,Série,4,168,29,0.17,Não,Notebook/PC
+311,2026-08-09,18:30,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Titanic,Romance,Filme,-,129,66,0.51,Não,Smart TV
+312,2026-08-09,22:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Blade Runner,Ficção Científica,Filme,-,107,19,0.18,Não,Celular
+313,2026-08-10,16:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Sherlock,Suspense,Série,3,147,137,0.93,Sim,Notebook/PC
+314,2026-08-10,21:00,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Mad Max: Estrada da Fúria,Ação,Filme,-,105,101,0.96,Sim,Celular
+315,2026-08-11,08:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,007 - Operação Skyfall,Ação,Filme,-,106,56,0.53,Não,Notebook/PC
+316,2026-08-11,11:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Clube da Luta,Drama,Filme,-,103,93,0.9,Sim,Smart TV
+317,2026-08-11,23:15,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,The Last of Us,Terror,Série,1,41,36,0.89,Não,Console
+318,2026-08-12,09:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Interestelar,Ficção Científica,Filme,-,101,90,0.89,Não,Notebook/PC
+319,2026-08-12,11:45,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,A Linha Tênue,Documentário,Documentário,-,120,104,0.87,Não,Smart TV
+320,2026-08-12,16:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,The Crown,Drama,Série,2,108,96,0.89,Não,Smart TV
+321,2026-08-12,17:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Matrix,Ficção Científica,Filme,-,147,143,0.97,Sim,Tablet
+322,2026-08-12,21:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,BoJack Horseman,Animação,Série (animação),1,52,11,0.21,Não,Notebook/PC
+323,2026-08-13,07:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Blade Runner,Ficção Científica,Filme,-,107,104,0.97,Sim,Smart TV
+324,2026-08-13,18:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Um Contratempo,Suspense,Filme,-,139,133,0.96,Sim,Smart TV
+325,2026-08-13,19:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,O Rei Leão,Animação,Filme (animação),-,99,21,0.21,Não,Smart TV
+326,2026-08-13,22:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Silêncio dos Inocentes,Suspense,Filme,-,107,107,1,Sim,Tablet
+327,2026-08-13,22:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Piratas do Caribe: A Maldição do Pérola Negra,Fantasia,Filme,-,120,73,0.61,Não,Smart TV
+328,2026-08-14,20:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Black Mirror,Ficção Científica,Série (antologia),2,84,73,0.87,Não,Console
+329,2026-08-15,11:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Bridgerton,Romance,Série,1,55,35,0.64,Não,Celular
+330,2026-08-15,18:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,O Auto da Compadecida,Comédia,Filme,-,106,95,0.9,Sim,Tablet
+331,2026-08-15,23:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,O Auto da Compadecida,Comédia,Filme,-,106,81,0.76,Não,Celular
+332,2026-08-16,08:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,A Chegada,Ficção Científica,Filme,-,117,27,0.23,Não,Smart TV
+333,2026-08-16,08:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,98,0.7,Não,Notebook/PC
+334,2026-08-17,22:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,126,0.9,Sim,Tablet
+335,2026-08-18,09:15,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Parasita,Drama,Filme,-,111,104,0.94,Sim,Console
+336,2026-08-18,15:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Breaking Bad,Drama,Série,2,82,35,0.43,Não,Smart TV
+337,2026-08-18,18:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Sherlock,Suspense,Série,2,98,93,0.95,Sim,Celular
+338,2026-08-18,19:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Interestelar,Ficção Científica,Filme,-,101,31,0.31,Não,Smart TV
+339,2026-08-19,07:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,The Crown,Drama,Série,4,216,186,0.86,Não,Smart TV
+340,2026-08-19,08:00,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,O Poderoso Chefão,Drama,Filme,-,111,105,0.95,Sim,Celular
+341,2026-08-19,11:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Titanic,Romance,Filme,-,129,128,0.99,Sim,Smart TV
+342,2026-08-19,15:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Chernobyl,Drama,Minissérie,1,51,10,0.19,Não,Smart TV
+343,2026-08-19,16:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Matrix,Ficção Científica,Filme,-,147,56,0.38,Não,Celular
+344,2026-08-19,19:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Outlander,Romance,Série,1,54,48,0.89,Não,Celular
+345,2026-08-20,08:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Atividade Paranormal,Terror,Filme,-,112,108,0.96,Sim,Celular
+346,2026-08-20,18:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Vikings,Ação,Série,1,58,37,0.63,Não,Tablet
+347,2026-08-21,17:45,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,O Exorcista,Terror,Filme,-,102,90,0.88,Não,Smart TV
+348,2026-08-21,23:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Mindhunter,Suspense,Série,2,104,103,0.99,Sim,Smart TV
+349,2026-08-22,08:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Rick and Morty,Animação,Série (animação),3,171,154,0.9,Sim,Smart TV
+350,2026-08-22,14:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Todo Mundo em Pânico,Comédia,Filme,-,105,67,0.64,Não,Smart TV
+351,2026-08-22,19:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Demolidor,Ação,Série,3,108,77,0.71,Não,Console
+352,2026-08-22,21:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,As Branquelas,Comédia,Filme,-,114,104,0.91,Sim,Smart TV
+353,2026-08-23,10:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,O Iluminado,Terror,Filme,-,85,82,0.96,Sim,Smart TV
+354,2026-08-23,17:45,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,A Máfia dos Tigres (Tiger King),Documentário,Documentário,-,93,87,0.94,Sim,Smart TV
+355,2026-08-23,19:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Mad Max: Estrada da Fúria,Ação,Filme,-,105,100,0.95,Sim,Notebook/PC
+356,2026-08-23,23:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Um Sonho de Liberdade,Drama,Filme,-,154,77,0.5,Não,Smart TV
+357,2026-08-24,20:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Blade Runner,Ficção Científica,Filme,-,107,70,0.65,Não,Celular
+358,2026-08-24,22:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,The Expanse,Ficção Científica,Série,3,114,113,0.99,Sim,Smart TV
+359,2026-08-25,12:45,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,O Labirinto do Fauno,Fantasia,Filme,-,158,147,0.93,Sim,Console
+360,2026-08-25,13:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Mad Max: Estrada da Fúria,Ação,Filme,-,105,88,0.84,Não,Tablet
+361,2026-08-25,17:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Missa da Meia-Noite,Terror,Minissérie,3,114,113,0.99,Sim,Smart TV
+362,2026-08-25,21:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Clube da Luta,Drama,Filme,-,103,42,0.41,Não,Celular
+363,2026-08-25,21:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Band of Brothers,Ação,Minissérie,1,43,15,0.35,Não,Smart TV
+364,2026-08-26,15:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Heartstopper,Romance,Série,3,159,65,0.41,Não,Tablet
+365,2026-08-26,17:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,007 - Operação Skyfall,Ação,Filme,-,106,87,0.82,Não,Smart TV
+366,2026-08-26,19:00,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Nosso Planeta,Documentário,Documentário (natureza),-,81,79,0.97,Sim,Smart TV
+367,2026-08-26,19:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Demolidor,Ação,Série,2,72,66,0.92,Sim,Smart TV
+368,2026-08-26,21:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Mindhunter,Suspense,Série,1,52,8,0.15,Não,Celular
+369,2026-08-27,13:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,American Horror Story,Terror,Série (antologia),1,45,4,0.09,Não,Smart TV
+370,2026-08-27,16:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Shrek 2,Animação,Filme (animação),-,97,84,0.87,Não,Celular
+371,2026-08-27,22:15,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,O Labirinto do Fauno,Fantasia,Filme,-,158,141,0.89,Não,Tablet
+372,2026-08-28,16:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,O Exorcista,Terror,Filme,-,102,69,0.68,Não,Tablet
+373,2026-08-29,10:00,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Ilha das Flores,Documentário,Curta-documentário,-,12,12,0.97,Sim,Smart TV
+374,2026-08-29,12:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Arquivo X,Ficção Científica,Série,2,78,23,0.29,Não,Smart TV
+375,2026-08-29,17:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Reacher,Ação,Série,1,49,28,0.57,Não,Celular
+376,2026-08-29,20:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Duro de Matar,Ação,Filme,-,124,112,0.9,Sim,Smart TV
+377,2026-08-29,22:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Psicose,Suspense,Filme,-,130,61,0.47,Não,Notebook/PC
+378,2026-08-29,23:45,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Duro de Matar,Ação,Filme,-,124,109,0.88,Não,Tablet
+379,2026-08-30,09:45,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Breaking Bad,Drama,Série,3,123,12,0.1,Não,Celular
+380,2026-08-30,13:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Kill Bill: Volume 1,Ação,Filme,-,122,105,0.86,Não,Celular
+381,2026-08-30,13:45,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Ruptura,Ficção Científica,Série,2,116,51,0.44,Não,Celular
+382,2026-08-30,18:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Matrix,Ficção Científica,Filme,-,147,146,0.99,Sim,Console
+383,2026-08-30,20:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Arquivo X,Ficção Científica,Série,3,117,105,0.9,Sim,Celular
+384,2026-08-31,11:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Akira,Animação,Filme (animação),-,93,11,0.12,Não,Smart TV
+385,2026-08-31,17:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Atividade Paranormal,Terror,Filme,-,112,97,0.87,Não,Console
+386,2026-09-01,15:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,O Auto da Compadecida,Comédia,Filme,-,106,102,0.96,Sim,Tablet
+387,2026-09-01,21:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,The Crown,Drama,Série,1,54,52,0.96,Sim,Notebook/PC
+388,2026-09-02,17:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,The Expanse,Ficção Científica,Série,1,38,22,0.58,Não,Smart TV
+389,2026-09-02,18:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Interestelar,Ficção Científica,Filme,-,101,98,0.97,Sim,Notebook/PC
+390,2026-09-02,20:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,La Casa de Papel,Suspense,Série,3,144,20,0.14,Não,Tablet
+391,2026-09-02,22:30,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,129,0.92,Sim,Celular
+392,2026-09-03,11:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,O Mistério de Jinx,Documentário,Documentário,-,89,77,0.86,Não,Notebook/PC
+393,2026-09-03,11:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,A Maldição da Residência Hill,Terror,Série,1,43,38,0.88,Não,Celular
+394,2026-09-03,18:00,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Succession,Drama,Série,3,126,125,0.99,Sim,Smart TV
+395,2026-09-03,20:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Ruptura,Ficção Científica,Série,2,116,107,0.92,Sim,Celular
+396,2026-09-03,23:30,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Chernobyl,Drama,Minissérie,2,102,47,0.46,Não,Notebook/PC
+397,2026-09-04,10:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Band of Brothers,Ação,Minissérie,1,43,25,0.59,Não,Tablet
+398,2026-09-04,10:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Fleabag,Comédia,Série,3,174,151,0.87,Não,Tablet
+399,2026-09-04,12:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,A Máfia dos Tigres (Tiger King),Documentário,Documentário,-,93,23,0.25,Não,Celular
+400,2026-09-04,16:15,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Kill Bill: Volume 1,Ação,Filme,-,122,117,0.96,Sim,Smart TV
+401,2026-09-04,23:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Breaking Bad,Drama,Série,1,41,26,0.63,Não,Smart TV
+402,2026-09-05,07:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Como se Fosse a Primeira Vez,Romance,Filme,-,100,87,0.87,Não,Notebook/PC
+403,2026-09-05,16:30,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,A Maldição da Residência Hill,Terror,Série,1,43,30,0.69,Não,Celular
+404,2026-09-05,21:30,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,A Chegada,Ficção Científica,Filme,-,117,111,0.95,Sim,Celular
+405,2026-09-05,22:30,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Succession,Drama,Série,1,42,16,0.39,Não,Tablet
+406,2026-09-05,23:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Sexto Sentido,Suspense,Filme,-,136,84,0.62,Não,Notebook/PC
+407,2026-09-06,07:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Chernobyl,Drama,Minissérie,1,51,50,0.99,Sim,Notebook/PC
+408,2026-09-06,08:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,"Bom Dia, Verônica",Suspense,Série,2,106,105,0.99,Sim,Celular
+409,2026-09-06,09:00,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,Hereditário,Terror,Filme,-,95,15,0.16,Não,Smart TV
+410,2026-09-07,08:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Auto da Compadecida,Comédia,Filme,-,106,65,0.61,Não,Notebook/PC
+411,2026-09-07,10:45,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Psicose,Suspense,Filme,-,130,70,0.54,Não,Smart TV
+412,2026-09-07,11:15,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Tropa de Elite,Ação,Filme,-,122,110,0.9,Sim,Notebook/PC
+413,2026-09-07,16:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Parasita,Drama,Filme,-,111,84,0.76,Não,Smart TV
+414,2026-09-09,08:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Ilha do Medo,Suspense,Filme,-,140,137,0.98,Sim,Tablet
+415,2026-09-09,09:30,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,IT A Coisa,Terror,Filme,-,106,94,0.89,Não,Notebook/PC
+416,2026-09-09,10:00,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Wild Wild Country,Documentário,Documentário,-,80,71,0.89,Não,Notebook/PC
+417,2026-09-09,15:15,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,Atividade Paranormal,Terror,Filme,-,112,104,0.93,Sim,Smart TV
+418,2026-09-09,20:15,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,Modern Family,Comédia,Série,1,55,53,0.96,Sim,Smart TV
+419,2026-09-10,07:00,1,João Pedro Silva,joao.silva@fictmail.com,29,São Paulo - SP,M,2024-01-15,American Horror Story,Terror,Série (antologia),2,90,90,1,Sim,Notebook/PC
+420,2026-09-10,16:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,2001: Uma Odisseia no Espaço,Ficção Científica,Filme,-,140,132,0.94,Sim,Smart TV
+421,2026-09-10,20:00,3,Lucas Gabriel Oliveira,lucas.oliveira@fictmail.com,22,Belo Horizonte - MG,M,2024-02-20,Blade Runner,Ficção Científica,Filme,-,107,105,0.98,Sim,Console
+422,2026-09-11,07:30,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Origem (From),Terror,Série,2,78,73,0.93,Sim,Tablet
+423,2026-09-11,16:00,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Senna,Documentário,Documentário,-,87,84,0.97,Sim,Console
+424,2026-09-11,16:45,9,Pedro Henrique Martins,pedro.martins@fictmail.com,45,Brasília - DF,M,2024-05-27,Forrest Gump,Drama,Filme,-,104,89,0.86,Não,Tablet
+425,2026-09-11,17:00,7,Gustavo Ferreira Rocha,gustavo.rocha@fictmail.com,38,Campinas - SP,M,2024-04-22,Vikings,Ação,Série,3,174,171,0.98,Sim,Tablet
+426,2026-09-12,09:30,8,Juliana Alves Barbosa,juliana.barbosa@fictmail.com,25,Recife - PE,F,2024-05-10,O Iluminado,Terror,Filme,-,85,30,0.35,Não,Tablet
+427,2026-09-12,10:15,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Kill Bill: Volume 1,Ação,Filme,-,122,52,0.43,Não,Celular
+428,2026-09-12,20:15,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Olhos que Condenam,Drama,Minissérie,3,105,99,0.94,Sim,Smart TV
+429,2026-09-13,11:30,4,Ana Carolina Costa,ana.costa@fictmail.com,41,Curitiba - PR,F,2024-03-05,Curtindo a Vida Adoidado,Comédia,Filme,-,87,85,0.98,Sim,Smart TV
+430,2026-09-13,12:45,5,Rafael Henrique Souza,rafael.souza@fictmail.com,27,Porto Alegre - RS,M,2024-03-18,O Iluminado,Terror,Filme,-,85,39,0.46,Não,Celular
+431,2026-09-13,13:30,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Olhos que Condenam,Drama,Minissérie,3,105,99,0.94,Sim,Smart TV
+432,2026-09-13,14:30,6,Beatriz Almeida Lima,beatriz.lima@fictmail.com,31,Salvador - BA,F,2024-04-02,Piratas do Caribe: A Maldição do Pérola Negra,Fantasia,Filme,-,120,82,0.68,Não,Smart TV
+433,2026-09-13,15:45,2,Maria Eduarda Santos,maria.santos@fictmail.com,34,Rio de Janeiro - RJ,F,2024-02-03,Orgulho e Preconceito,Romance,Filme,-,119,114,0.96,Sim,Celular
+434,2026-09-13,16:30,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,Psicose,Suspense,Filme,-,130,126,0.97,Sim,Tablet
+435,2026-09-13,22:00,10,Camila Rodrigues Dias,camila.dias@fictmail.com,19,Fortaleza - CE,F,2024-06-14,True Detective,Suspense,Série (antologia),2,84,79,0.94,Sim,Celular

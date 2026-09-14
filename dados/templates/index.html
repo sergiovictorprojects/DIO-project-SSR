@@ -10,24 +10,134 @@
                 ul { list-style: none; padding: 0; }
                 li { background: #09090a; margin: 10px auto; padding: 10px; width: 300px; border-radius: 4px; border: 1px solid #323238; }
                 i { color: #7c7c8a; }
-                .user-table  table { color: #e1e1e6; margin: 0 auto; font-size: 14px; margin: 0 auto; display: block; text-align: center; }
+
+                .user-table { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }
+                .seriesfilmes-table { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }
+                .eventstable { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }
+                .relacao01 { color: #e1e1e6; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; text-align: left; display: -webkit-box; }     
+                .etapa01 { margin-top: 140px;}
+                .etapa02 { margin-top: 140px;}
+                .line { border: 1px solid #323238; margin: 80px auto; width: 80%; }
             </style>
         </head>
+        <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
             <body>
                 <h1>{{ titulo }}</h1>
                     <h2>Tecnologias Utilizadas:</h2>
-                        <ul>
+                        <ul style="margin-bottom: 50px">
                             {% for tecnologia in itens %}
                             <li> {{ tecnologia }} </li>
                             {% endfor %}
                         </ul>
-                <div style="margin-top: 100px"; class = "etapa01">
-                    <h3> Etapa 01 — Criação da base de dados </h3>
-                        <p> Base de dados criada para o desenvolvimento do projeto. </p>
-                        <i> criação de 10 usuários fictícios </i>
-                            <div class = "user-table">
-                                {{relacaoent | safe}}
-                            </div>
-                </div>
+            <hr class = "line"/>  
+                    <div class = "etapa01">
+                        <h3> 1. Criação da base de dados </h3>
+                            <p style="margin-bottom: 50px"> 
+                                Arquivo em excel disponível no caminho do repositório: 'dados/base' com todos os dados utilizados <br> 
+                                no processo de desenvolvimento das análises.</p>
+
+                                    <p> Definição de 10 usuários iniciais </p>
+                                        <i> pág.1 - Usuários </i>
+                                            <div class = "user-table">
+                                                {{usertable | safe}}
+                                            </div>
+                                                <h4> Notas: </h4>
+                                                    <p style = "margin-bottom: 180px;"> 
+                                                        Informações sobre 10 usuários com diferentes perfis de comportamento <br> 
+                                                        para criar contextos de relacionamento posteriores. </p>
+            <hr class = "line"/>  
+                                    <p> Dados sobre Séries, Filmes e Casting </p>
+                                        <i> pág.2 - Séries e Filmes (visualização reduzida) </i>
+                                            <div class = "seriesfilmes-table">
+                                                {{seriesfilmes | safe}}
+                                            </div>
+                                                <h4> Notas: </h4>
+                            <p style = "margin-bottom: 10px;">
+                                Informações sobre 10 atores/atrizes do casting de 5 séries e 5 filmes de 10 genêros diferentes <br> 
+                                incluindo autores/diretores, gerando um contexto de 100 instâncias.<br> <br> </p>
+                                        <i style = "font-size: 12px; color: #7c7c8a;">
+                                            • Para os títulos de Documentário, a coluna "Ator/Voz" lista as pessoas reais <br>
+                                            retratadas/entrevistadas (não atores de ficção), já que documentários não têm elenco fictício. <br> 
+                                            • Para os títulos de Animação, a coluna "Ator/Voz" lista os dubladores/vozes originais. <br> 
+                                            • "Nosso Planeta" é um documentário de natureza sem elenco humano; apenas a narração é creditada.<br>  
+                                            • Séries em antologia (Black Mirror, True Detective, American Horror Story, Modern Love) <br> 
+                                            têm elenco diferente a cada temporada/episódio; foram listados os 10 nomes mais notáveis do elenco <br>
+                                            geral da produção. <br>
+                                        </i> 
+            <hr class = "line"/>  
+                            <p style = "margin-top: 220px;"> Mapeamento dos eventos dentro aplicativo </p>
+                                        <i> pág.3 - Dados gerados com informações de 4 meses para simulação do comportamento dentro do aplicativo </i>
+                                             <div class = "eventstable">
+                                                {{eventstable | safe}}
+                                             </div>
+                                                <h4> Notas: </h4>
+                                                    <p style = "margin-bottom: 40px;">
+                                                        Dados criados para adicionar contexto adicional ao projeto, com mais de 400 instâncias. (visualização reduzida) <br>
+                                                    </p>
+                                                        <i style = "font-size: 12px; color: #7c7c8a;">
+                                                            • Período simulado: 13/05/2026 a 13/09/2026 (4 meses).<br>
+                                                            • Cada usuário tem entre 2 e 4 gêneros preferidos e um nível de atividade (baixo/médio/alto), o que gera volumes de eventos diferentes por pessoa.<br>
+                                                            • ~72% das sessões seguem os gêneros preferidos do usuário; ~28% são "exploração" de outros gêneros (padrão comum em serviços de streaming).<br>
+                                                            • Para Séries/Minisséries, "Duração da Sessão" = duração média do episódio × episódios assistidos na sessão (sessões de binge-watching de 1 a 4 episódios). <br>
+                                                            • "Tempo Assistido" = Duração da Sessão × % Assistido (parte da sessão realmente vista pelo usuário).<br>
+                                                            • "Concluiu?" = Sim quando % Assistido ≥ 90%.<br>
+                                                        </i> 
+                    </div>
+            <hr class = "line"/>  
+                    <div class = "etapa02"> 
+                        <h3> 2. importação no Neo4j Aura </h3>
+                            <p style="margin-bottom: 50px"> Inclusão dos dados separados em arquivos CSV e criação do relacionamento</p>
+                                    <i>Visualização:</i>
+                                    <div id="relacionamento1" style="width: 620px; height: 300px; margin: 0 auto; border-radius: 8px; background-color: #f0eeee;"></div>
+                                    <script type="text/javascript">
+                                    // 1. Definir nós
+                                        var nos = new vis.DataSet([
+                                        { id: 1, label: "Usuário",color: '#97c2fc', shape: 'dot',},
+                                        { id: 2, label: "Conteúdo", color: '#fb7e81', shape: 'dot' },
+                                        { id: 3, label: "Evento", color: '#7be141', shape: 'dot' }
+                                        ]);
+
+                                    // 2. Definir conexões (Arestas)
+                                        var conexoes = new vis.DataSet([
+                                        { from: 1, to: 3, label: "GEROU_EVENTO"},
+                                        { from: 2, to: 3, label: "ASSISTIU_A"}
+                                        ]);
+
+                                    // 3. Junte tudo e ligue o motor físico
+                                        var container = document.getElementById("relacionamento1");
+                                        var dados = { nodes: nos, edges: conexoes };
+                                        var opcoes = {
+                                        physics: {
+                                            enabled: true,
+                                                barnesHut: {
+                                                    // A força de repulsão entre as bolhas (quanto mais negativo, mais elas se afastam)
+                                                    gravitationalConstant: -8000, 
+                                                    // O tamanho padrão da linha (mola) que conecta uma bolha na outra
+                                                    springLength: 250, 
+                                                    // Evita que as bolhas fiquem se sobrepondo caso não tenham conexões
+                                                    avoidOverlap: 0.5 
+                                                }
+                                            }
+                                        };
+  
+                                        var network = new vis.Network(container, dados, opcoes);
+                                    </script>
+                                        <i> pág.3 - Dados gerados com informações de 4 meses para simulação do comportamento dentro do aplicativo </i>
+                                            <div class = "relacao01">
+                                               
+                                            </div>
+                                                <h4> Notas: </h4>
+                                                    <p style = "margin-bottom: 40px;">
+                                                        Dados criados para adicionar contexto adicional ao projeto, com mais de 400 instâncias. <br>
+                                                    </p>
+                                                        <i style = "font-size: 12px; color: #7c7c8a;">
+                                                            • Período simulado: 13/05/2026 a 13/09/2026 (4 meses).<br>
+                                                            • Cada usuário tem entre 2 e 4 gêneros preferidos e um nível de atividade (baixo/médio/alto), o que gera volumes de eventos diferentes por pessoa.<br>
+                                                            • ~72% das sessões seguem os gêneros preferidos do usuário; ~28% são "exploração" de outros gêneros (padrão comum em serviços de streaming).<br>
+                                                            • Para Séries/Minisséries, "Duração da Sessão" = duração média do episódio × episódios assistidos na sessão (sessões de binge-watching de 1 a 4 episódios). <br>
+                                                            • "Tempo Assistido" = Duração da Sessão × % Assistido (parte da sessão realmente vista pelo usuário).<br>
+                                                            • "Concluiu?" = Sim quando % Assistido ≥ 90%.<br>
+                                                        </i> 
+                    </div>
 
     </body>

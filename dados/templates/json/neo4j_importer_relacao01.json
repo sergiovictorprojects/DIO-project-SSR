@@ -1,0 +1,1034 @@
+{
+  "version": "3.0.0",
+  "visualisation": {
+    "nodes": [
+      {
+        "id": "n:0",
+        "position": {
+          "x": 33.889787819801356,
+          "y": 88.9729199524338
+        }
+      },
+      {
+        "id": "n:1",
+        "position": {
+          "x": -73.984462998322,
+          "y": -59.84905496866255
+        }
+      },
+      {
+        "id": "n:2",
+        "position": {
+          "x": 76.34516585164666,
+          "y": -55.14463408589559
+        }
+      }
+    ]
+  },
+  "dataModel": {
+    "version": "3.0.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:0",
+            "token": "Usuario",
+            "properties": [
+              {
+                "$id": "n:0:Cidade/UF",
+                "token": "cidadeUf",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:0:Data de Cadastro",
+                "token": "dataDeCadastro",
+                "type": {
+                  "type": "datetime"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:0:E-mail",
+                "token": "email",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:0:Gênero",
+                "token": "genero",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:0:ID",
+                "token": "id",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": false
+              },
+              {
+                "$id": "n:0:Idade",
+                "token": "idade",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:0:Nome",
+                "token": "nome",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:1",
+            "token": "Conteudo",
+            "properties": [
+              {
+                "$id": "n:1:Ano",
+                "token": "ano",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 1",
+                "token": "atorVoz1",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 10",
+                "token": "atorVoz10",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 2",
+                "token": "atorVoz2",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 3",
+                "token": "atorVoz3",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 4",
+                "token": "atorVoz4",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 5",
+                "token": "atorVoz5",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 6",
+                "token": "atorVoz6",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 7",
+                "token": "atorVoz7",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 8",
+                "token": "atorVoz8",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Ator/Voz 9",
+                "token": "atorVoz9",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Categoria",
+                "token": "categoria",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Diretor(a) / Criador(a)",
+                "token": "diretorCriador",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Tipo",
+                "token": "tipo",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:1:Título",
+                "token": "titulo",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": false
+              }
+            ]
+          },
+          {
+            "$id": "nl:2",
+            "token": "Evento",
+            "properties": [
+              {
+                "$id": "n:2:% Assistido",
+                "token": "percentualAssistido",
+                "type": {
+                  "type": "float"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:2:Concluiu?",
+                "token": "concluiu",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:2:Data",
+                "token": "data",
+                "type": {
+                  "type": "datetime"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:2:Dispositivo",
+                "token": "dispositivo",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:2:Duração da Sessão (min)",
+                "token": "duracaoSessaoMin",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:2:Episódios Assistidos",
+                "token": "episodiosAssistidos",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:2:Hora",
+                "token": "hora",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "n:2:ID Evento",
+                "token": "idEvento",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": false
+              },
+              {
+                "$id": "n:2:Tempo Assistido (min)",
+                "token": "tempoAssistidoMin",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          }
+        ],
+        "relationshipTypes": [
+          {
+            "$id": "rt:0",
+            "token": "GEROU_EVENTO",
+            "properties": []
+          },
+          {
+            "$id": "rt:1",
+            "token": "ASSISTIU_A",
+            "properties": []
+          }
+        ],
+        "nodeObjectTypes": [
+          {
+            "$id": "n:0",
+            "labels": [
+              {
+                "$ref": "#nl:0"
+              }
+            ]
+          },
+          {
+            "$id": "n:1",
+            "labels": [
+              {
+                "$ref": "#nl:1"
+              }
+            ]
+          },
+          {
+            "$id": "n:2",
+            "labels": [
+              {
+                "$ref": "#nl:2"
+              }
+            ]
+          }
+        ],
+        "relationshipObjectTypes": [
+          {
+            "$id": "r:0",
+            "type": {
+              "$ref": "#rt:0"
+            },
+            "from": {
+              "$ref": "#n:0"
+            },
+            "to": {
+              "$ref": "#n:2"
+            }
+          },
+          {
+            "$id": "r:1",
+            "type": {
+              "$ref": "#rt:1"
+            },
+            "from": {
+              "$ref": "#n:2"
+            },
+            "to": {
+              "$ref": "#n:1"
+            }
+          }
+        ],
+        "constraints": [
+          {
+            "$id": "c:1",
+            "name": "titulo_Conteudo_key",
+            "constraintType": "key",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:1"
+            },
+            "properties": [
+              {
+                "$ref": "#n:1:Título"
+              }
+            ]
+          },
+          {
+            "$id": "c:0",
+            "name": "id_Usuario_key",
+            "constraintType": "key",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:0"
+            },
+            "properties": [
+              {
+                "$ref": "#n:0:ID"
+              }
+            ],
+            "relationshipType": null
+          },
+          {
+            "$id": "c:2",
+            "name": "idEvento_Evento_key",
+            "constraintType": "key",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:2"
+            },
+            "properties": [
+              {
+                "$ref": "#n:2:ID Evento"
+              }
+            ],
+            "relationshipType": null
+          },
+          {
+            "$id": "c:3",
+            "name": "nome_Usuario_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:0"
+            },
+            "properties": [
+              {
+                "$ref": "#n:0:Nome"
+              }
+            ]
+          },
+          {
+            "$id": "c:4",
+            "name": "concluiu_Evento_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:2"
+            },
+            "properties": [
+              {
+                "$ref": "#n:2:Concluiu?"
+              }
+            ]
+          }
+        ],
+        "indexes": []
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": [
+        {
+          "node": {
+            "$ref": "#n:0"
+          },
+          "keyProperties": [
+            {
+              "$ref": "#n:0:ID"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:1"
+          },
+          "keyProperties": [
+            {
+              "$ref": "#n:1:Título"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:2"
+          },
+          "keyProperties": [
+            {
+              "$ref": "#n:2:ID Evento"
+            }
+          ]
+        }
+      ]
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": {
+        "type": "local",
+        "tableSchemas": [
+          {
+            "name": "usuarios.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "ID",
+                "sample": "1",
+                "recommendedType": {
+                  "type": "integer"
+                }
+              },
+              {
+                "name": "Nome",
+                "sample": "João Pedro Silva",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "E-mail",
+                "sample": "joao.silva@fictmail.com",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Idade",
+                "sample": "29",
+                "recommendedType": {
+                  "type": "integer"
+                }
+              },
+              {
+                "name": "Cidade/UF",
+                "sample": "São Paulo - SP",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Gênero",
+                "sample": "M",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Data de Cadastro",
+                "sample": "2024-01-15",
+                "recommendedType": {
+                  "type": "datetime"
+                }
+              }
+            ]
+          },
+          {
+            "name": "eventos.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "ID Evento",
+                "sample": "1",
+                "recommendedType": {
+                  "type": "integer"
+                }
+              },
+              {
+                "name": "Data",
+                "sample": "2026-05-14",
+                "recommendedType": {
+                  "type": "datetime"
+                }
+              },
+              {
+                "name": "Hora",
+                "sample": "12:45",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "ID Usuário",
+                "sample": "7",
+                "recommendedType": {
+                  "type": "integer"
+                }
+              },
+              {
+                "name": "Usuário",
+                "sample": "Gustavo Ferreira Rocha",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "E-mail",
+                "sample": "gustavo.rocha@fictmail.com",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Idade",
+                "sample": "38",
+                "recommendedType": {
+                  "type": "integer"
+                }
+              },
+              {
+                "name": "Cidade/UF",
+                "sample": "Campinas - SP",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Gênero (Usuário)",
+                "sample": "M",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Data de Cadastro",
+                "sample": "2024-04-22",
+                "recommendedType": {
+                  "type": "datetime"
+                }
+              },
+              {
+                "name": "Título",
+                "sample": "As Branquelas",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Gênero",
+                "sample": "Comédia",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Tipo",
+                "sample": "Filme",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Episódios Assistidos",
+                "sample": "-",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Duração da Sessão (min)",
+                "sample": "114",
+                "recommendedType": {
+                  "type": "integer"
+                }
+              },
+              {
+                "name": "Tempo Assistido (min)",
+                "sample": "99",
+                "recommendedType": {
+                  "type": "integer"
+                }
+              },
+              {
+                "name": "% Assistido",
+                "sample": "0.87",
+                "recommendedType": {
+                  "type": "float"
+                }
+              },
+              {
+                "name": "Concluiu?",
+                "sample": "Não",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Dispositivo",
+                "sample": "Console",
+                "recommendedType": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          {
+            "name": "filmes e series.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "Categoria",
+                "sample": "Ficção Científica",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Título",
+                "sample": "2001: Uma Odisseia no Espaço",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ano",
+                "sample": "1968",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Tipo",
+                "sample": "Filme",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Diretor(a) / Criador(a)",
+                "sample": "Stanley Kubrick",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 1",
+                "sample": "Keir Dullea",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 2",
+                "sample": "Gary Lockwood",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 3",
+                "sample": "William Sylvester",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 4",
+                "sample": "Daniel Richter",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 5",
+                "sample": "Robert Beatty",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 6",
+                "sample": "Sean Sullivan",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 7",
+                "sample": "Douglas Rain",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 8",
+                "sample": "Leonard Rossiter",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 9",
+                "sample": "Margaret Tyzack",
+                "recommendedType": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "Ator/Voz 10",
+                "sample": "Frank Miller",
+                "recommendedType": {
+                  "type": "string"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "nodeMappings": [
+        {
+          "node": {
+            "$ref": "#n:0"
+          },
+          "tableName": "usuarios.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "Cidade/UF",
+              "property": {
+                "$ref": "#n:0:Cidade/UF"
+              }
+            },
+            {
+              "fieldName": "Data de Cadastro",
+              "property": {
+                "$ref": "#n:0:Data de Cadastro"
+              }
+            },
+            {
+              "fieldName": "E-mail",
+              "property": {
+                "$ref": "#n:0:E-mail"
+              }
+            },
+            {
+              "fieldName": "Gênero",
+              "property": {
+                "$ref": "#n:0:Gênero"
+              }
+            },
+            {
+              "fieldName": "ID",
+              "property": {
+                "$ref": "#n:0:ID"
+              }
+            },
+            {
+              "fieldName": "Idade",
+              "property": {
+                "$ref": "#n:0:Idade"
+              }
+            },
+            {
+              "fieldName": "Nome",
+              "property": {
+                "$ref": "#n:0:Nome"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:1"
+          },
+          "tableName": "filmes e series.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "Ano",
+              "property": {
+                "$ref": "#n:1:Ano"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 1",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 1"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 10",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 10"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 2",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 2"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 3",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 3"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 4",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 4"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 5",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 5"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 6",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 6"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 7",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 7"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 8",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 8"
+              }
+            },
+            {
+              "fieldName": "Ator/Voz 9",
+              "property": {
+                "$ref": "#n:1:Ator/Voz 9"
+              }
+            },
+            {
+              "fieldName": "Categoria",
+              "property": {
+                "$ref": "#n:1:Categoria"
+              }
+            },
+            {
+              "fieldName": "Diretor(a) / Criador(a)",
+              "property": {
+                "$ref": "#n:1:Diretor(a) / Criador(a)"
+              }
+            },
+            {
+              "fieldName": "Tipo",
+              "property": {
+                "$ref": "#n:1:Tipo"
+              }
+            },
+            {
+              "fieldName": "Título",
+              "property": {
+                "$ref": "#n:1:Título"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:2"
+          },
+          "tableName": "eventos.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "% Assistido",
+              "property": {
+                "$ref": "#n:2:% Assistido"
+              }
+            },
+            {
+              "fieldName": "Concluiu?",
+              "property": {
+                "$ref": "#n:2:Concluiu?"
+              }
+            },
+            {
+              "fieldName": "Data",
+              "property": {
+                "$ref": "#n:2:Data"
+              }
+            },
+            {
+              "fieldName": "Dispositivo",
+              "property": {
+                "$ref": "#n:2:Dispositivo"
+              }
+            },
+            {
+              "fieldName": "Duração da Sessão (min)",
+              "property": {
+                "$ref": "#n:2:Duração da Sessão (min)"
+              }
+            },
+            {
+              "fieldName": "Episódios Assistidos",
+              "property": {
+                "$ref": "#n:2:Episódios Assistidos"
+              }
+            },
+            {
+              "fieldName": "Hora",
+              "property": {
+                "$ref": "#n:2:Hora"
+              }
+            },
+            {
+              "fieldName": "ID Evento",
+              "property": {
+                "$ref": "#n:2:ID Evento"
+              }
+            },
+            {
+              "fieldName": "Tempo Assistido (min)",
+              "property": {
+                "$ref": "#n:2:Tempo Assistido (min)"
+              }
+            }
+          ]
+        }
+      ],
+      "relationshipMappings": [
+        {
+          "relationship": {
+            "$ref": "#r:0"
+          },
+          "tableName": "eventos.csv",
+          "fromMappings": {
+            "#n:0:ID": "ID Usuário"
+          },
+          "toMappings": {
+            "#n:2:ID Evento": "ID Evento"
+          },
+          "propertyMappings": []
+        },
+        {
+          "relationship": {
+            "$ref": "#r:1"
+          },
+          "tableName": "eventos.csv",
+          "fromMappings": {
+            "#n:2:ID Evento": "ID Evento"
+          },
+          "toMappings": {
+            "#n:1:Título": "Título"
+          },
+          "propertyMappings": []
+        }
+      ]
+    },
+    "configurations": {
+      "idsToIgnore": [],
+      "arrayDelimiter": "|",
+      "vectorDelimiter": "|"
+    }
+  }
+}
