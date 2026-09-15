@@ -63,7 +63,4 @@ _Figura 6: representação visual do modelo de dados completo._
 
 
 ## Conclusão
-O DIO-project-SSR representa uma base inicial para um sistema de busca e recomendação em evolução. A combinação de dados estruturados, relacionamento entre entidades e visualização gráfica permite que o projeto seja entendido como uma solução escalável, com potencial para crescer em complexidade e abrangência conforme novas demandas e fontes de dados forem incorporadas.
-
-## Referências visuais do repositório
-Os arquivos de imagem e SVG incluídos no projeto auxiliam na documentação do estado atual da base de dados, da estrutura conceitual e da visão funcional da solução.
+O projeto representa uma base inicial para um sistema de busca e recomendação em evolução. A combinação de dados estruturados, relacionamento entre entidades e visualização gráfica permite que o projeto possa ser entendido como uma solução com potencial para crescer em complexidade e abrangência, tendo em vista que, com uma conexão à fonte de dados, podemos desenvolver versões de uma aplicação que retorne recomendações baseadas nos dados fornecidos. 
