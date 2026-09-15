@@ -27,7 +27,6 @@ def testar_banco():
         return "Erro: Driver do Neo4j não foi inicializado. Verifique as variáveis de ambiente."
     
     try:
-        # Tenta fazer uma consulta super simples para verificar o status
         with neo4j_driver.session() as session:
             resultado = session.run("RETURN 'Conexão com Neo4j estabelecida com sucesso!' AS mensagem")
             mensagem = resultado.single()["mensagem"]
