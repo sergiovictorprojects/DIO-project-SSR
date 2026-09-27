@@ -14,7 +14,8 @@ Este projeto consiste na criação de uma solução de análise de dados com a p
 O objetivo principal do projeto é documentar todo processo de desenvolvimento e implementar a estrutura inicial de busca e recomendação, permitindo analisar como os conteúdos podem ser conectados a usuários por afinidade e relevância.
 
 ## Arquitetura e funcionamento
-Considerar na ferramenta de busca conexões contextuais entre os elementos do sistema.
+Através de consultas na base de dados na busca de informações importante para a construção do sistema de recomendação
+Estruturação no Neo4j em referência aos nós e relacionamentos
 
 ## Status atual
 Até o momento, o repositório foi inicializado com a estrutura base do projeto, incluindo o nome, a descrição e os objetivos principais. A base de dados foi criada com informações iniciais e serve como ponto de partida para testes, ajustes e expansão da modelagem.
@@ -31,7 +32,7 @@ Com isso, o projeto estabelece uma base para aplicações em plataformas de cont
 ## Banco de dados
 A base de dados foi organizada para representar informações iniciais de usuários, conteúdos e associações relevantes. A estrutura atual funciona como modelo base e pode ser ampliada conforme o projeto evolui.
 
-### Entidades e registros iniciais
+### Registros iniciais
 
 ![Tela02](dados/static/img/image2.png)
 
